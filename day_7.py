@@ -35,7 +35,6 @@ print(f"polars_result is:\n{pl_result.head()}")
 
 
 #conclusion
-#conclusion
 """
 - Reason 1: Polars is way faster than Pandas as a result of using multithreading (it utilizes all available CPU cores, whereas Pandas is strictly single-threaded).
 - Reason 2: Written in Rust. It provides memory safety and C/C++ level performance, bypassing Python's performance bottlenecks.
