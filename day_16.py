@@ -3,9 +3,7 @@ import numpy as np
 def standardize_data(X):
     means=np.mean(X,axis=0)
     stds=np.std(X,axis=0)
-    
     X_scaled = (X-means)/stds
-    
     return X_scaled
     
 
