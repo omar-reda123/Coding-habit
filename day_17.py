@@ -5,7 +5,7 @@ def r2_score_scratch(y_true, y_pred):
     ss_tot = np.sum((y_true-y_mean)**2)
     r2 = 1-(ss_res/ss_tot)
     return r2
-    pass
+    
 
 #test
 if __name__ == "__main__":
